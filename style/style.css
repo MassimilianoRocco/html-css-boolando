@@ -53,7 +53,6 @@ header{
 
 .target{
     width: calc(100% / 3);
-    height: 2rem;
     align-items: center;
 }
 .target a{
@@ -64,11 +63,10 @@ header{
 
 .boolean{
     width: calc(100% / 3);
-    height: 2rem;
     justify-content: center;
 }
 .boolean img{
-    height: 100% ;
+    width: 50%;
 }
 
 
@@ -114,4 +112,30 @@ figure.img-box:hover .hover-img{
 
 .testo p{
     color: red;
+}
+
+/**** FOOTER ****/
+
+footer{
+    background-color: black;
+    margin-top: 2rem;
+}
+
+.left-box{
+    width: 50%;
+}
+
+.left-box a{
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    font-size: 11px;
+}
+
+.right-box{
+    width: 50%;    
+}
+
+.social-icons i{
+    padding: 2px;
 }
