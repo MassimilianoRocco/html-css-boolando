@@ -15,7 +15,7 @@
 }
 
 .testh{
-    height: 4rem;
+    height: 30rem;
 }
 
 .tc-aligned{
@@ -23,6 +23,13 @@
 }
 .tr-aligned{
     text-align: right;
+}
+
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
 }
 
 /***** HEADER *****/
@@ -70,3 +77,22 @@ header{
 }
 
 /***** MAIN *****/
+
+.container{
+    background-color: slategray;
+    margin-top: 5rem;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.primo-box{
+    width: calc(100% / 3);
+}
+
+figure>img{
+    width: 100%;
+}
+
+.l-through{
+    text-decoration: line-through;
+}
