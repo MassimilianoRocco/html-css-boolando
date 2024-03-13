@@ -38,6 +38,13 @@
      z-index: 2
 }
 
+.r-bg{
+    background-color: red;
+}
+.g-bg{
+    background-color: green;
+}
+
 /***** HEADER *****/
 
 header{
@@ -113,6 +120,50 @@ figure.img-box:hover .hover-img{
 .testo p{
     color: red;
 }
+
+.inside-elem{
+    bottom: 4rem;
+}
+
+.inside-elem p{
+    display: inline-block;
+    color: white;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.heart{
+    top: 1rem;
+    right: 0;
+}
+.heart p{
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 0px 5px;
+}
+
+.heart-hover{
+    top: 1rem;
+    right: 0;
+}
+.heart-hover p{
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 0px 5px;
+    color: red;
+    display: none;
+}
+
+.container-h:hover .heart-hover p{
+    color: red;
+    display: inline-block;
+}
+
+.container-h{
+    top:2rem;
+    right:0;
+}
+
 
 /**** FOOTER ****/
 
