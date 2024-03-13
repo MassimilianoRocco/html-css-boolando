@@ -31,6 +31,12 @@
 .absolute{
     position: absolute;
 }
+.z1{ 
+    z-index: 1;
+}
+.z2{
+     z-index: 2
+}
 
 /***** HEADER *****/
 
@@ -79,13 +85,12 @@ header{
 /***** MAIN *****/
 
 .container{
-    background-color: slategray;
-    margin-top: 5rem;
+    margin-top: 2rem;
     justify-content: space-between;
     gap: 1rem;
 }
 
-.primo-box{
+.box{
     width: calc(100% / 3);
 }
 
@@ -95,4 +100,18 @@ figure>img{
 
 .l-through{
     text-decoration: line-through;
+}
+
+figure.img-box:hover .hover-img{
+    display: inline-block;
+}
+
+.hover-img{
+    position: absolute;
+    top: 0; left: 0;
+    display: none;
+}
+
+.testo p{
+    color: red;
 }
