@@ -31,12 +31,6 @@
 .absolute{
     position: absolute;
 }
-.z1{ 
-    z-index: 1;
-}
-.z2{
-     z-index: 2
-}
 
 .r-bg{
     background-color: red;
@@ -73,7 +67,7 @@ header{
     justify-content: center;
 }
 .boolean img{
-    width: 50%;
+    height: 2rem;
 }
 
 
