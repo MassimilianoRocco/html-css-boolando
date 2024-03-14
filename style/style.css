@@ -43,7 +43,10 @@
 
 header{
     background-color: #ff6900;
-    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
 }
 
 .box80{
@@ -82,6 +85,11 @@ header{
 }
 
 /***** MAIN *****/
+
+main{
+    position: relative;
+    top: 4rem;
+}
 
 .container{
     margin-top: 2rem;
@@ -164,6 +172,8 @@ figure.img-box:hover .hover-img{
 footer{
     background-color: black;
     margin-top: 2rem;
+    position: relative;
+    top: 4rem;
 }
 
 .left-box{
