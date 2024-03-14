@@ -87,8 +87,7 @@ header{
 /***** MAIN *****/
 
 main{
-    position: relative;
-    top: 4rem;
+    padding: 4rem;
 }
 
 .container{
@@ -172,8 +171,7 @@ figure.img-box:hover .hover-img{
 footer{
     background-color: black;
     margin-top: 2rem;
-    position: relative;
-    top: 4rem;
+    padding: 1rem;
 }
 
 .left-box{
